@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Candra-Theme-3.20-Darkest
+Type=X-GNOME-Metatheme
+Comment=A Qt-like dark theme for Gtk
+Encoding=UTF-8
+GtkTheme=Candra-Theme-3.20-Darkest
+MetacityTheme=Adwaita
+IconTheme=GNOME
+CursorTheme=DMZ
+CursorSize=24
