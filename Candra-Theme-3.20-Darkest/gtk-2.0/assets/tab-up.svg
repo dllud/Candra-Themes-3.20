@@ -231,13 +231,13 @@
      id="layer1"
      transform="translate(0,-1022.3622)">
     <path
-       style="fill:#262627;fill-opacity:1;stroke:none"
+       style="fill:#0B0B0C;fill-opacity:1;stroke:none"
        d="m 4.2962,1023.5 c -2.3703,0 -4.2813,2.0267 -4.2813,4.5406 l 0,27.2764 30,0 0,-27.2764 c 0,-2.5139 -1.911,-4.5406 -4.2812,-4.5406 l -21.4375,0 z"
        id="rect3753-3"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:none;stroke:#262627;stroke-width:1.0298382;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#0B0B0C;stroke-width:1.0298382;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 4.6534,1024.0303 c -2.2912,0 -4.1385,2.0265 -4.1385,4.5404 l 0,27.2766 29,0 0,-27.2766 c 0,-2.5139 -1.8473,-4.5404 -4.1385,-4.5404 l -20.723,0 z"
        id="rect3753-5" />
     <path

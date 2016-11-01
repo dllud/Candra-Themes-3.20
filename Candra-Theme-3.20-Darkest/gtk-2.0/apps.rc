@@ -206,7 +206,7 @@ style "chrome-gtk-frame" {
 
 style "chrome_entry" {
 
-  base[NORMAL] = "#343436"
+  base[NORMAL] = "#191919"
   base[INSENSITIVE] = @bg_color
 }
 
