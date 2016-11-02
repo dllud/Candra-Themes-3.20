@@ -4,9 +4,9 @@
 # vim:set ts=2 sw=2 sts=2 ai et:
 
 # Text/base colors
-gtk-color-scheme = "text_color:#dddddd\nbase_color:#141416"
+gtk-color-scheme = "text_color:#bbbbbb\nbase_color:#141416"
 # Foreground/background colors
-gtk-color-scheme = "fg_color:#bbbbbb\nbg_color:#0F0F10"
+gtk-color-scheme = "fg_color:#aaaaab\nbg_color:#0F0F10"
 # Selected foreground/background colors
 gtk-color-scheme = "selected_fg_color:#f8f8f8\nselected_bg_color:#195757"
 # Tooltip colors

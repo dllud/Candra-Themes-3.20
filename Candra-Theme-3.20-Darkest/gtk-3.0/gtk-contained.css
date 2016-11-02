@@ -5382,10 +5382,10 @@ statusbar.horizontal frame > border {
    use responsibly! */
 /*
 widget text/foreground color */
-@define-color theme_fg_color #bbbbbb;
+@define-color theme_fg_color #aaaaab;
 /*
 text color for entries, views and content in general */
-@define-color theme_text_color #dddddd;
+@define-color theme_text_color #bbbbbb;
 /*
 widget base background color */
 @define-color theme_bg_color #0F0F10;
