@@ -23,15 +23,15 @@
       <stop
          id="stop4187"
          offset="0"
-         style="stop-color:#ffffff;stop-opacity:0.16" />
+         style="stop-color:#ffffff;stop-opacity:0.41999999" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:0"
+         style="stop-color:#ffffff;stop-opacity:0.2"
          offset="0.16"
          id="stop4189" />
       <stop
          id="stop4191"
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:0" />
+         style="stop-color:#ffffff;stop-opacity:0.2" />
     </linearGradient>
     <linearGradient
        id="linearGradient3833">
@@ -202,6 +202,16 @@
        inkscape:collect="always" />
     <linearGradient
        inkscape:collect="always"
+       xlink:href="#linearGradient4185"
+       id="linearGradient3956"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1377721,0,0,1.1506708,-0.14910403,-2.1246002)"
+       x1="7.999999"
+       y1="1.92503"
+       x2="7.999999"
+       y2="13.024264" />
+    <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient3845-4"
        id="linearGradient3953-8"
        gradientUnits="userSpaceOnUse"
@@ -262,17 +272,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="21.31"
-     inkscape:cx="-10.316283"
-     inkscape:cy="8.1664315"
-     inkscape:current-layer="layer1"
+     inkscape:zoom="30.136891"
+     inkscape:cx="5.4720201"
+     inkscape:cy="8.5222496"
+     inkscape:current-layer="g4185"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1044"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
@@ -295,7 +305,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -304,23 +314,44 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(0,2)">
-    <rect
-       ry="0.87044549"
-       rx="0.87044549"
-       y="-1.0943304"
-       x="0.93878204"
-       height="16.088976"
-       width="16.088976"
-       id="rect17861-2"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0;fill:none;stroke:#000000;stroke-width:2.011;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
-    <rect
-       ry="1.5452242"
-       rx="1.5452242"
-       y="-1.4360337"
-       x="0.54709429"
-       height="14.87194"
-       width="16.905811"
-       id="rect17861"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#212121;fill-opacity:1;stroke:#212121;stroke-width:1.09418857;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate;opacity:0.00000001" />
+    <g
+       id="g4185">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.09418857;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate;opacity:0.1"
+         id="rect17861-0-6"
+         width="16.905811"
+         height="14.87194"
+         x="0.59636736"
+         y="0.75917906"
+         rx="1.0759609"
+         ry="1.0759609" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.09418857;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate;opacity:0.15"
+         id="rect17861-0"
+         width="16.905811"
+         height="14.87194"
+         x="0.63156176"
+         y="-0.31496334"
+         rx="1.0759609"
+         ry="1.0759609" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#191919;fill-opacity:1;stroke:#1a1a1a;stroke-width:1.09418857;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect17861"
+         width="16.905811"
+         height="14.87194"
+         x="0.54709429"
+         y="-1.4360337"
+         rx="1.0759609"
+         ry="1.0759609" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.08;fill:none;stroke:url(#linearGradient3956);stroke-width:1.14420331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect17861-6"
+         width="14.791039"
+         height="13.808051"
+         x="1.5575544"
+         y="-0.39859402"
+         rx="0.058499906"
+         ry="0.055306159" />
+    </g>
   </g>
 </svg>
