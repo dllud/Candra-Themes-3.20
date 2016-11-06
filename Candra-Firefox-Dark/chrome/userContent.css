@@ -13,33 +13,35 @@
                      /*by killhellokitty/jo-shva 2016*/
 /************ Fixes Color of Input/Entry Boxes within Web-Pages **************/
 /*remove if you would like dark-gray input boxes in web-pages, or change to your liking*/
-input {
-    -moz-appearance: none;
-    background-color: #e2e2e2;
-    color: #000;
+
+input,
+input:not(.urlbar-input):not(.textbox-input),
+textarea,
+select,
+#textbox-input-box {
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: white;
+  color: #333333;
+  -moz-appearance: none;
 }
 
-input:not(.urlbar-input):not(.textbox-input) {
-    -moz-appearance: none;
-    background-color: #e2e2e2;
-    color: black;
-}
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"],
+*|*::-moz-radio {
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eeeeee;
+  color: #333333;
+  -moz-appearance: none;
+} 
 
 #downloads-indicator-counter {
     color: #e2e2e2;
-}
-
-#textbox-input-box,
-textarea {
-    -moz-appearance: none;
-    background-color: #e2e2e2;
-    color: #000;
-}
-
-select {
-    -moz-appearance: none;
-    background-color: black;
-    color: white;
 }
 
 /*************************** THEME Below this line ***************************/
@@ -567,7 +569,9 @@ margin-bottom:0px !important;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.42) !important;
 }
 
-.creator .text-link {
+.creator .text-link,
+.text-link,
+.button-link {
   color: #00A68E !important;
 }
 
