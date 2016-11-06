@@ -283,6 +283,14 @@ toolbar textbox:hover {
 					#1f1f20) !important;
 }
 
+#PopupAutoCompleteRichResult .ac-url-text {
+  color: #00A68E !important;
+}
+
+#PopupAutoCompleteRichResult .ac-separator-text {
+  color: #4e4e4f !important;
+}
+
 /*
 .searchbar-textbox {
     padding-top: 2px !important;
