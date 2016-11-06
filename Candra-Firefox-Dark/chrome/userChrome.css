@@ -516,13 +516,7 @@ windowdragbox {
 
 /* Menus */
 
-popup,
-menupopup{
-  padding: 3px!important;
-}
-
 panel{
-  padding: 0px!important;
   border: none!important;
 }
 
@@ -530,79 +524,31 @@ panel[type="arrow"]{
   -moz-appearance: none!important;
   background: transparent!important;
   border: none!important;
-  transition: opacity 300ms!important;
-}
-
-panel[type="arrow"][side="top"],
-panel[type="arrow"][side="bottom"] {
-  margin-left: -20px!important;
-  margin-right: -20px!important;
-}
-
-panel[type="arrow"][side="left"],
-panel[type="arrow"][side="right"] {
-  margin-top: -20px!important;
-  margin-bottom: -20px!important;
 }
 
 .panel-arrowcontent {
-/* edited by FT DeepDark's author */
-  border-radius: 3px!important;
-  padding: 10px!important;
   color: #aaaaab !important;
   background: #0f0f10!important;
-  background-clip: padding-box!important;
   border: none !important;
-  margin: 3px 4px 4px 4px!important;
 }
 
 .panel-subviews {
   background-color: #121214!important;
-  border-bottom-right-radius: 3.5px;
-  padding: 0;
 }
 
 #login-fill-details {
-  padding: 4px;
   background-color: #121214!important;
   color: #aaaaab!important;
-  background-clip: padding-box;
-  border-left: 1px solid hsla(210,4%,10%,.3);
-  -moz-margin-start: 38px;
 }
 
 .panel-arrow[side="top"],
 .panel-arrow[side="bottom"] {
   list-style-image: url("images/panelarrow-vertical.png")!important;
-  position: relative!important;
-  margin-left: 10px!important;
-  margin-right: 10px!important;
-}
-
-.panel-arrow[side="top"] {
-  margin-bottom: -5px!important;
-}
-
-.panel-arrow[side="bottom"] {
-  transform: scaleY(-1)!important;
-  margin-top: -7px!important;
 }
 
 .panel-arrow[side="left"],
 .panel-arrow[side="right"] {
   list-style-image: url("images/panelarrow-horizontal.png")!important;
-  position: relative!important;
-  margin-top: 10px!important;
-  margin-bottom: 10px!important;
-}
-
-.panel-arrow[side="left"] {
-  margin-right: -5px!important;
-}
-
-.panel-arrow[side="right"] {
-  transform: scaleX(-1)!important;
-  margin-left: -5px!important;
 }
 
 /*************************** Window Controls *******************************/
