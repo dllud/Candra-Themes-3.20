@@ -92,13 +92,18 @@ toolbarbutton.bookmark-item[open="true"],
 #nav-bar .toolbarbutton-1:not([disabled]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-text,
 #nav-bar .toolbarbutton-1:not([disabled]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-badge-container,
 #nav-bar .toolbarbutton-1[checked]:not(:active):hover > .toolbarbutton-icon,
-window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([open]):not(:active):not([disabled]) > .toolbarbutton-icon,
 window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([open]):not(:active):not([disabled]):hover > .toolbarbutton-icon,
-window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([disabled]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-icon,
-window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:-moz-any([disabled],:not([open]):not([disabled]):not(:active)) > .toolbarbutton-icon {
+window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([disabled]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-icon {
   background-color: #303031 !important;
   background-image: none !important;
   color: #e0e0e0;
+}
+
+/* forward and back buttons */
+#nav-bar #back-button > .toolbarbutton-icon,
+#nav-bar #forward-button > .toolbarbutton-icon {
+  border: none !important;
+  background-color: #191919 !important;
 }
 
 /*************************** Dropmarker *******************************/
