@@ -96,7 +96,7 @@ window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([open
 window:not([chromehidden~="toolbar"]) #urlbar-container > #back-button:not([disabled]):-moz-any([open],[checked],:hover:active) > .toolbarbutton-icon {
   background-color: #303031 !important;
   background-image: none !important;
-  color: #e0e0e0;
+  color: #e0e0e0 !important;
 }
 
 /* forward and back buttons */
@@ -569,3 +569,25 @@ panel[type="arrow"]{
 #minimize-button { list-style-image: url("images/minimize.svg") !important; }
 #minimize-button:hover { list-style-image: url("images/min-hover.svg") !important; }
 #minimize-button:active { list-style-image: url("images/min-active.svg") !important; }
+
+
+/* Findbar */
+
+findbar {
+  -moz-appearance: none !important;
+  background-color: #0F0F10 !important;
+  color: #aaaaab !important;
+  border: none !important
+}
+
+.findbar-find-previous,
+.findbar-find-next {
+  background-image: none !important;
+  border-color: #3E3E3E !important;
+  box-shadow: none !important;
+}
+
+.findbar-button:hover,
+.findbar-button[checked] {
+  color: #000000 !important;
+}
