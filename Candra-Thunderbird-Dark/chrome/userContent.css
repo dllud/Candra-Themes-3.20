@@ -1,0 +1,24 @@
+/* Quote Levels Colors */
+blockquote[type=cite] {
+ background-color: #272822;
+}
+
+blockquote[type=cite] > pre {
+ color: #ffcb00;
+}
+
+blockquote[type=cite] blockquote > pre{
+ color: #fd6500;
+}
+
+blockquote[type=cite] blockquote blockquote > pre {
+ color: #00a000;
+}
+
+blockquote[type=cite] blockquote blockquote blockquote > pre {
+ color: purple;
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote > pre {
+ color: teal;
+}
