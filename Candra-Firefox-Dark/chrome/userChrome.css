@@ -264,45 +264,23 @@ tree {
   border: none !important;
 }
   
-tree[seltype="cell"] > treechildren::-moz-tree-cell-text,
+treechildren::-moz-tree-cell-text,
 tree[seltype="text"] > treechildren::-moz-tree-cell-text,
-treechildren::-moz-tree-cell-text {
+tree[seltype="cell"] > treechildren::-moz-tree-cell-text {
   color: #aaaaab !important;
-}  
-
-treechildren::-moz-tree-cell-text(hover) {
-  color: #e0e0e0 !important;
-}
-
-treechildren::-moz-tree-cell-text(selected) {
-  color: #f8f8f8 !important;
-}
-
-treechildren::-moz-tree-cell-text(active) {
-  color: #f8f8f8 !important;
-}
-
-tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected) ,
-tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected) {
-  color: #f8f8f8!important;
-}
-
-tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus),
-tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus),
-treechildren::-moz-tree-cell-text(selected, focus),
-treechildren::-moz-tree-cell-text(hover, selected, focus) {
-  color: #f8f8f8 !important;
-}
-
-tree[seltype="cell"] > treechildren::-moz-tree-line,
-tree[seltype="text"] > treechildren::-moz-tree-line,
-treechildren::-moz-tree-line {
   border: none !important;
 }
 
-tree[seltype="cell"] > treechildren::-moz-tree-line(active, selected, focus),
-tree[seltype="text"] > treechildren::-moz-tree-line(active, selected, focus),
-treechildren::-moz-tree-line(active, selected, focus) {
+treechildren::-moz-tree-cell-text(hover),
+treechildren::-moz-tree-cell-text(active),
+treechildren::-moz-tree-cell-text(selected),
+treechildren::-moz-tree-cell-text(selected, focus),
+treechildren::-moz-tree-cell-text(hover, selected, focus),
+tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected),
+tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, focus),
+tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected),
+tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
+  color: #e0e0e0 !important;
   border: none !important;
 }
 
