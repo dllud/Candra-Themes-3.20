@@ -11,3 +11,7 @@ In your Eclipse installation directory do:
 	ln -s $candra-dir/Candra-Eclipse/e4_default_gtk.css
 
 Substitute $candra-dir for the actual Candra directory in your system.
+
+Then, inside Eclipse go to `Window > Preferences > General > Appearance`, change your theme to GTK and restart.
+
+For a full dark experience [use Eclipse Color Themes](https://gist.github.com/dllud/e2751ab00ce0e40cc4997b89008fc08a#eclipse-ide).
