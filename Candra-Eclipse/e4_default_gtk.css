@@ -1,0 +1,8 @@
+Link {
+	swt-link-foreground-color: #195757
+}
+
+#org-eclipse-ui-main-toolbar, #PerspectiveSwitcher {
+    eclipse-perspective-keyline-color: #0F0F10;
+    handle-image: none;
+}
