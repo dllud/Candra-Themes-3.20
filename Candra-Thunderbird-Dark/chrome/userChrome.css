@@ -1,3 +1,22 @@
+/**************************** Mail Toolbars ***************************/
+#mail-toolbox,
+.mail-toolbox,
+#chat-view-toolbox,
+#ab-bar2,
+#event-toolbar,
+#composeToolbar2,
+#unifinder-searchBox {
+  background: #0F0F10 !important;
+}
+
+.toolbarbutton-1 .toolbarbutton-icon,
+.toolbarbutton-1 .toolbarbutton-text,
+.toolbarbutton-1 .toolbarbutton-badge-stack,
+.toolbarbutton-1 .toolbarbutton-badge-container,
+.toolbarbutton-1 .dropmarker-icon {
+  color: #aaaaab !important;
+}
+
 /***********Tree*********************/
 tree {
   -moz-appearance: none !important;
