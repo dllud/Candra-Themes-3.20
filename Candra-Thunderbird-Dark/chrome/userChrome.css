@@ -194,3 +194,46 @@ body {
 }
 
 }
+
+
+/********** Enigmail **********/
+.enigmailHeaderName {
+  color: #aaaaab !important;
+}
+
+#enigmailStatusText,
+#expandedEnigmailStatusText {
+  color: #aaaaab !important;
+}
+
+.enigmailHeaderBoxLabelNoSignature {
+  background-color: #5B3A68 !important;
+}
+
+.enigmailHeaderBoxLabelSignatureOk {
+  background-color: #3A6860 !important;
+}
+
+.enigmailHeaderBoxLabelSignatureVerified {
+  background-color: #60683A !important;
+}
+
+.enigmailHeaderBoxLabelSignatureNotOk {
+  background-color: #68433A !important;
+}
+
+.enigmailHeaderBoxLabelSignatureUnknown {
+  background-color: #68593A !important;
+}
+
+.enigMsgHdrView-flat-button {
+  border: none !important;
+  background: #191919 !important;
+  color: #aaaaab !important;
+}
+
+.enigMsgHdrView-flat-button:hover {
+  border: none !important;
+  background: #303031 !important;
+  color: #e0e0e0 !important;  
+}
