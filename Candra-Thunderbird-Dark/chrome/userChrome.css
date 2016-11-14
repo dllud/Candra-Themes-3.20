@@ -9,12 +9,33 @@
   background: #0F0F10 !important;
 }
 
+.toolbarbutton-1,
+.toolbarbutton-1 .toolbarbutton-menubutton-dropmarker,
+.toolbarbutton-1 .toolbarbutton-menubutton-button,
 .toolbarbutton-1 .toolbarbutton-icon,
 .toolbarbutton-1 .toolbarbutton-text,
 .toolbarbutton-1 .toolbarbutton-badge-stack,
 .toolbarbutton-1 .toolbarbutton-badge-container,
 .toolbarbutton-1 .dropmarker-icon {
   color: #aaaaab !important;
+  border: none !important;
+}
+
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover),
+.toolbarbutton-1 .toolbarbutton-menubutton-dropmarker:not([disabled]):-moz-any([open],[checked="true"],:hover),
+.toolbarbutton-1 .toolbarbutton-menubutton-button:not([disabled]):-moz-any([open],[checked="true"],:hover) {
+  background-color: #303031 !important;
+  border: none !important;
+  box-shadow: none !important;
+  -moz-appearance: none !important;
+}
+
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover) .toolbarbutton-icon,
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover) .toolbarbutton-text,
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover) .toolbarbutton-badge-stack,
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover) .toolbarbutton-badge-container,
+.toolbarbutton-1:not([disabled]):-moz-any([open],[checked="true"],:hover) .dropmarker-icon {
+  color: #e0e0e0 !important;
 }
 
 /***********Tree*********************/
