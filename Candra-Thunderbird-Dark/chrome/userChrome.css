@@ -1,4 +1,114 @@
-/**************************** Mail Toolbars ***************************/
+/********** Tabstrip **********/
+.tab-background {
+  /* overlap the tab curves */
+  -moz-appearance: none !important;
+  -moz-margin-end: -1px!important;
+  -moz-margin-start: -1px!important;
+  border-width: 0 !important;
+}
+
+.tab-background-start[selected=true]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before,
+.tab-background-end[selected=true]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before,
+.tab-background-end[selected=true]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before,
+.tab-background-start[selected=true]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before,
+.tab-background-start[selected=true]:-moz-locale-dir(ltr)::after,
+.tab-background-end[selected=true]:-moz-locale-dir(rtl)::after,
+.tab-background-end[selected=true]:-moz-locale-dir(ltr)::after,
+.tab-background-start[selected=true]:-moz-locale-dir(rtl)::after,
+.tab-background-middle[selected=true] {
+  -moz-appearance: none !important;
+  background-clip: padding-box, padding-box, content-box;
+  background-color: #141416 !important;
+  background-image: none !important;
+  background-repeat: repeat-x;
+  background-size: auto;
+  /* The padding-top combined with background-clip: content-box (the bottom-most) ensure the
+     background-color doesn't extend above the top border. */
+  padding-top: 2px;
+  
+  border-radius: 2px 2px 0 0 !important;
+    border-width: 0px 1px 3px 1px !important;
+    border-style: solid !important;
+    border-color: #1c1c1f !important;
+    border-bottom-color: rgba(0,0,0,0.9) !important;
+    border-left: 1px solid rgba(0,0,0,0.9) !important;
+    border-right: 1px solid rgba(0,0,0,0.9) !important;
+    box-shadow: inset 0 -2px #195757,
+    inset 0 -3px rgba(255,255,255, 0.04)
+    !important;
+}
+
+.tab-background-middle[selected=true],
+.tabmail-tab[selected="true"] {
+  color: #dddddf !important;
+  font-weight: bold;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.758) !important;
+  moz-transition: .40s ease-in !important;
+}
+
+.tab-background-middle[selected=true]:hover,
+.tabmail-tab[selected="true"]:hover {
+  color: #dddddf !important;
+  font-weight: bold;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.768) !important;
+}
+
+.tab-background-start[selected=true]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before,
+.tab-background-end[selected=true]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before,
+.tab-background-start[selected=true]:-moz-locale-dir(ltr)::after,
+.tab-background-end[selected=true]:-moz-locale-dir(rtl)::after {
+	border-radius: 2px 0px 0 0 !important;
+    border-width: 0px 0px 3px 1px !important;
+    border-style: solid !important;
+    border-color: rgba(0,0,0,0.9) !important;
+    border-bottom-color: rgba(0,0,0,0.9) !important;
+}
+
+.tab-background-end[selected=true]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before,
+.tab-background-start[selected=true]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before,
+.tab-background-end[selected=true]:-moz-locale-dir(ltr)::after,
+.tab-background-start[selected=true]:-moz-locale-dir(rtl)::after {
+	border-radius: 0px 2px 0 0 !important;
+    border-width: 0px 1px 3px 0px !important;
+    border-style: solid !important;
+    border-color: rgba(0,0,0,0.9) !important;
+    border-bottom-color: rgba(0,0,0,0.9) !important;
+}
+
+.tabmail-tab:hover > .tab-stack > .tab-background:not([selected=true]) {
+  -moz-appearance: none !important;
+  background-image: none !important;
+  background-color: rgba(52, 52, 53, 0.2) !important;
+  border-left: 1px solid rgba(37, 37, 38, 0.3) !important;
+  border-right: 1px solid rgba(37, 37, 38, 0.3) !important;
+  border-radius: 0;
+  box-shadow: inset 0 2px 0 #242424 !important;
+  border-bottom-width: 2px solid rgba(37, 37, 38, 0.3) !important;
+  border-top-width: 0px;
+  box-shadow: none !important;
+  color: #e0e0e0 !important;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.36) !important;
+}
+
+.tabmail-tab:hover {
+  color: alpha(#aaaaab,0.65) !important;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.36) !important;
+}
+
+#tabmail-tabs[movingtab] > .tabmail-tab[beforeselected]:not([last-visible-tab])::after,
+.tabmail-tab:not([selected]):not([afterselected-visible]):not([afterhovered]):not([first-visible-tab]):not(:hover)::before,
+#tabmail-tabs:not([overflow]) > .tabmail-tab[last-visible-tab]:not([selected]):not([beforehovered]):not(:hover)::after {
+  -moz-appearance: none !important;
+  -moz-margin-start: 0px !important;
+  -moz-margin-end: 0px !important;
+  background-image: none !important;
+  content: "";
+  display: -moz-box;
+  width: 0 !important;
+}
+
+
+/********** Mail Toolbars **********/
 #mail-toolbox,
 .mail-toolbox,
 #chat-view-toolbox,
@@ -7,6 +117,10 @@
 #composeToolbar2,
 #unifinder-searchBox {
   background: #0F0F10 !important;
+}
+
+#mail-toolbox {
+  box-shadow: none !important;
 }
 
 .toolbarbutton-1,
@@ -38,7 +152,8 @@
   color: #e0e0e0 !important;
 }
 
-/***********Tree*********************/
+
+/********** Tree **********/
 tree {
   -moz-appearance: none !important;
   color: #aaaaab !important;
