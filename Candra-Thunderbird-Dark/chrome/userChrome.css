@@ -181,3 +181,16 @@ tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected),
 tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus) {
   color: #e0e0e0 !important;
 }
+
+
+/********** MultiMessage **********/
+@-moz-document url(chrome://messenger/content/multimessageview.xhtml) {
+body {
+  background-color: #0F0F10 !important;
+}
+
+#heading {
+  background: #195757 !important;
+}
+
+}
