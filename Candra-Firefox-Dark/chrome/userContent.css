@@ -21,6 +21,7 @@ select,
 #textbox-input-box {
   border-width: 1px;
   border-radius: 2px;
+  border-color: black;
   background-color: white;
   color: #333333;
   -moz-appearance: none;
@@ -35,6 +36,7 @@ input[type="checkbox"],
 *|*::-moz-radio {
   border-width: 1px;
   border-radius: 2px;
+  border-color: black;
   background-color: #eeeeee;
   color: #333333;
   -moz-appearance: none;
