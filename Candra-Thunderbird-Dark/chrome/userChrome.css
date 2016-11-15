@@ -188,6 +188,21 @@ tree[seltype="cell"] > treechildren::-moz-tree-cell-text(active, selected, focus
   background-color: #195757 !important;
 }
 
+
+/********** Compose Window **********/
+#msgcomposeWindow .menulist-label-box {
+  border: none !important;
+  box-shadow: none !important;
+  background: #191919 !important;
+}
+
+#msgcomposeWindow .aw-menulist {
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+
+
 /********** MultiMessage **********/
 @-moz-document url(chrome://messenger/content/multimessageview.xhtml) {
 body {
