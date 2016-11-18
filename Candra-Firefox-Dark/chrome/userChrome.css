@@ -503,7 +503,7 @@ panel{
 
 panel[type="arrow"]{
   -moz-appearance: none!important;
-  background: transparent!important;
+  /*background: transparent!important;*/
   border: none!important;
 }
 
@@ -531,6 +531,18 @@ panel[type="arrow"]{
 .panel-arrow[side="right"] {
   list-style-image: url("images/panelarrow-horizontal.png")!important;
 }
+
+.menu-iconic menupopup {
+  background: #0f0f10 !important;
+  border: none !important;
+}
+
+.menu-iconic:hover,
+.menuitem-iconic:hover {
+  background: #303031 !important;
+  color: #e0e0e0 !important;
+}
+
 
 /*************************** Window Controls *******************************/
 #close-button, #restore-button, #minimize-button {
