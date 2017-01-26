@@ -45,6 +45,8 @@ This theme contains a set of patches to make Mozilla Firefox and Mozilla Thunder
 	cd .thunderbird/<your profile>
 	rm -r chrome ; ln -s $candra-dir/Candra-Thunderbird-Dark/chrome
 
+On Thunderbird go to `Preferences > Display > Colors` and select `Use system colors`.
+
 ### Eclipse
 In your Eclipse installation directory do:
 
