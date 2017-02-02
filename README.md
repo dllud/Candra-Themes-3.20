@@ -69,6 +69,8 @@ For a full dark experience [use Eclipse Color Themes](https://gist.github.com/dl
 	cd ~/.config/geany
 	ln -s $candra-dir/Candra-Geany/filedefs
 	ln -s $candra-dir/Candra-Geany/colorschemes
+	
+Then open Geany, go to `View > Change Color Scheme` and select Candra Darkest.
 
 ### Qt integration
 LXDE in Ubuntu 16.10 no longer requires setting `QT_QPA_PLATFORMTHEME=qt5ct`. The default `lxqt` platform theme is now able to seemlessly theme Qt software based on your current Gtk theme.
