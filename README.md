@@ -20,6 +20,7 @@ If you use Candra Darkest or some other dark theme, you might want to take a loo
 - Firefox (light and darkest)
 - Thunderbird (darkest only)
 - Eclipse (all variants, depends on Gtk theme)
+- Geany (darkest only)
 
 
 ## Requirements
@@ -28,7 +29,13 @@ If you use Candra Darkest or some other dark theme, you might want to take a loo
 - gnome-themes-standard >= 3.20
 - pixbuf-engine or the gtk(2)-engines package gtk-engine-murrine
 
+Debian and derivates:
+
 		sudo apt install gnome-themes-standard gtk2-engines-pixbuf gtk2-engines-murrine
+		
+Arch and derivates:
+
+		sudo pacman -S gnome-themes-standard gdk-pixbuf2 gtk-engine-murrine
 
 ## Installation
 1. Download the zip package for this repo.
@@ -58,11 +65,18 @@ Then, inside Eclipse go to `Window > Preferences > General > Appearance`, change
 
 For a full dark experience [use Eclipse Color Themes](https://gist.github.com/dllud/e2751ab00ce0e40cc4997b89008fc08a#eclipse-ide).
 
+### Geany
+	cd ~/.config/geany
+	ln -s $candra-dir/Candra-Geany/filedefs
+	ln -s $candra-dir/Candra-Geany/colorschemes
+
 ### Qt integration
 LXDE in Ubuntu 16.10 no longer requires setting `QT_QPA_PLATFORMTHEME=qt5ct`. The default `lxqt` platform theme is now able to seemlessly theme Qt software based on your current Gtk theme.
 
 ## License and authorship
 Candra-Themes-3.20 licensed under [GNU GPL v3](/LICENSE) by [killhellokitty](http://killhellokitty.deviantart.com/). Some tweaks by [dllud](https://github.com/dllud).
+
+[Candra Darkest for Geany](Candra-Geany/colorschemes/candra-darkest.conf) forked from [Dark theme](https://github.com/codebrainz/geany-themes/blob/master/colorschemes/dark.conf) and [filedefs for Geany](Candra-Geany/filedefs) forked from [geany-dark-scheme](https://github.com/dflock/geany-dark-scheme), both by [Duncan Lock](https://github.com/dflock).
 
 ## Donations
 Please buy killhellokitty a beer. He accepts [donations through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VQBDVXRFDHPPS&lc=US&item_name=killhellokitty&item_number=SiouXsie&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted).
