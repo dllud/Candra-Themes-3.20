@@ -2,6 +2,11 @@
   color: #FFCB00;
 }
 
+body {
+  background: #141416;
+  color: #BBBBBB;
+}
+
 /* Quote Levels Colors */
 blockquote[type=cite] {
   border-color: #195757;
