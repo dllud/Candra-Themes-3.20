@@ -179,7 +179,7 @@ dropmarker[disabled="true"] {
 
 checkbox,
 radiogroup {
-background-color: #161618 !important;
+  background-color: #161618 !important;
 }
 
 /******************************* Status panel ********************************/
