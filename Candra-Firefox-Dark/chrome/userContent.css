@@ -12,6 +12,33 @@
 /************************ Add USER code ABOVE this line *********************/
                      /*by killhellokitty/jo-shva 2016*/
 /************ Fixes Color of Input/Entry Boxes within Web-Pages **************/
+/*remove if you would like dark-gray input boxes in web-pages, or change to your liking*/
+
+input,
+input:not(.urlbar-input):not(.textbox-input),
+textarea,
+select,
+#textbox-input-box {
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: black;
+  background-color: white;
+  color: #333333;
+}
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"],
+*|*::-moz-radio {
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: black;
+  background-color: #eeeeee;
+  color: #333333;
+} 
 
 #downloads-indicator-counter {
     color: #e2e2e2;
