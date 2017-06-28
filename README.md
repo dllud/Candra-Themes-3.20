@@ -76,8 +76,35 @@ For a full dark experience [use Eclipse Color Themes](https://gist.github.com/dl
 	
 Then open Geany, go to `View > Change Color Scheme` and select Candra Darkest.
 
-### Qt integration
-LXDE in Ubuntu 16.10 no longer requires setting `QT_QPA_PLATFORMTHEME=qt5ct`. The default `lxqt` platform theme is now able to seemlessly theme Qt software based on your current Gtk theme.
+### Qt 5 integration
+
+#### Lubuntu
+LXDE in Ubuntu 16.10+ is able to seemlessly theme Qt software based on your current Gtk theme. No need for extra configurations.
+
+#### Others
+1. Install [qtstyleplugins](https://code.qt.io/cgit/qt/qtstyleplugins.git/) and [qt5ct](https://sourceforge.net/projects/qt5ct/).
+
+	1.1 qtstyleplugins is available on the main repos for Debian and derivates (e.g. Ubuntu).
+	
+		sudo apt install qt5-style-plugins
+	
+	1.1 On Ubuntu you can get qt5ct through [hda-me PPA](https://launchpad.net/~hda-me/+archive/ubuntu/qt5ct).
+	
+		sudo add-apt-repository ppa:hda-me/qt5ct
+		sudo apt update && sudo apt install qt5ct
+	
+	1.2 On Debian you can compile qt5ct from [mati75/qt5ct repo](https://github.com/mati75/qt5ct/releases).
+	
+	1.3 On Arch and derivates you can get [qt5ct from the Community repo](https://www.archlinux.org/packages/community/x86_64/qt5ct/) and [qt5-styleplugins from AUR](https://aur.archlinux.org/packages/qt5-styleplugins).
+
+2. Add `export QT_QPA_PLATFORMTHEME=qt5ct` as a new line into `~/.profile`.
+
+3. Symlink qt5ct configuration:
+
+		cd ~/.config
+		ln -s $candra-dir/qt5ct
+		
+4. Restart X server. For instance, logout and login.
 
 ## License and authorship
 Candra-Themes-3.20 licensed under [GNU GPL v3](/LICENSE) by [killhellokitty](http://killhellokitty.deviantart.com/). Some tweaks by [dllud](https://github.com/dllud).
