@@ -14,16 +14,16 @@
 /************ Fixes Color of Input/Entry Boxes within Web-Pages **************/
 /*remove if you would like dark-gray input boxes in web-pages, or change to your liking*/
 
-input,
-input:not(.urlbar-input):not(.textbox-input),
-textarea,
 select,
+input[type="text"],
+textarea,
 #textbox-input-box {
   border-width: 1px;
   border-radius: 2px;
   border-color: black;
   background-color: white;
   color: #333333;
+  -moz-appearance: none;
 }
 
 button,
@@ -38,6 +38,7 @@ input[type="checkbox"],
   border-color: black;
   background-color: #eeeeee;
   color: #333333;
+  -moz-appearance: none;
 } 
 
 #downloads-indicator-counter {
@@ -46,21 +47,6 @@ input[type="checkbox"],
 
 /*************************** THEME Below this line ***************************/
 /****************************** Page background ******************************/
-*/*|*:root {
-  -moz-appearance: none!important;
-  background-color:  rgb(32,32,32)!important;
-  background-repeat: repeat!important;
-  color: WindowText;
-}*/
-/* Background for blank tab and Firefox startup blank page
-before homepage loads...
-see userChrome.css for background before clicked link page loads */
-@-moz-document  url(about:blank) {
-html { background-color: #0f0f10 !important; }}
-/* added dickvls just because */
-@-moz-document url-prefix(about:blank) {
-* { background-color: #0f0f10; }}
-
 #newtab-vertical-margin,
 #newtab-customize-button {
   background-color: #0f0f10!important;
