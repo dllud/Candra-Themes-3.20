@@ -95,7 +95,9 @@ LXDE in Ubuntu 16.10+ is able to seemlessly theme Qt software based on your curr
 	
 	1.2 On Debian you can compile qt5ct from [mati75/qt5ct repo](https://github.com/mati75/qt5ct/releases).
 	
-	1.3 On Arch and derivates you can get [qt5ct from the Community repo](https://www.archlinux.org/packages/community/x86_64/qt5ct/) and [qt5-styleplugins from AUR](https://aur.archlinux.org/packages/qt5-styleplugins).
+	1.3 On Arch both are available from the main repos:
+	
+		sudo pacman -S qt5-styleplugins qt5ct
 
 2. Add `export QT_QPA_PLATFORMTHEME=qt5ct` as a new line into `~/.profile`.
 
