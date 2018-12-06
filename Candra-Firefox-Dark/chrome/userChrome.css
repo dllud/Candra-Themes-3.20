@@ -184,9 +184,9 @@ radiogroup {
 }
 
 /******************************* Status panel ********************************/
-.statuspanel-label {
+#statuspanel-label {
   background-color: #0F0F10 !important;
-  background-image: none!important;
+  background-image: none !important;
   color: #aaaaab !important;
   border: none !important;
 }
