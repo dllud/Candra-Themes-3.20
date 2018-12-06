@@ -1,3 +1,4 @@
+@import url("treestyletab.css");
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 /************************ DO NOT remove the Above line  **********************/
 /************************ Add USER code BELLOW this line *********************/
@@ -573,7 +574,6 @@ panel[type="arrow"]{
 #minimize-button:hover { list-style-image: url("images/min-hover.svg") !important; }
 #minimize-button:active { list-style-image: url("images/min-active.svg") !important; }
 
-
 /* Findbar */
 
 findbar {
@@ -593,4 +593,13 @@ findbar {
 .findbar-button:hover,
 .findbar-button[checked] {
   color: #000000 !important;
+}
+
+/********************* Searchbar **************************/
+.search-panel-header, .search-panel-one-offs {
+  background-color: #0F0F10 !important;;
+}
+
+.searchbar-engine-one-off-item:hover {
+  background-color: #195757 !important;
 }
