@@ -47,10 +47,14 @@ Arch and derivates:
 This theme contains a set of patches to make Mozilla Firefox and Mozilla Thunderbird work better with dark themes. You can install them through a symlink on your profile folders.
 
 	cd ~/.mozilla/firefox/<your profile>
-	rm -r chrome ; ln -s $candra-dir/Candra-Firefox-Dark/chrome
+	rm -r chrome ; ln -s $candra-dir/Candra-Firefox-Dark/chrome-regulartab chrome
 	
 	cd .thunderbird/<your profile>
 	rm -r chrome ; ln -s $candra-dir/Candra-Thunderbird-Dark/chrome
+
+There are two versions of the Firefox-Dark theme:
+- `chrome-regulartab` for a regular Firefox.
+- `chrome-treetab` for those using [Tree Style Tab](https://github.com/piroor/treestyletab) plugin.
 
 On Thunderbird go to `Preferences > Advanced > General > Config Editor...` and edit the following preferences like so:
 
