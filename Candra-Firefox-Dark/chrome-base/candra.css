@@ -6,10 +6,9 @@
   -moz-box-flex: 1; /* make menu items expand to fill toolbar height */
 }
 
-/* Hide the while line appearing on the bottom of
- * navigator-toolbox by moving up the content-deck over it. */
-#content-deck {
-  margin-top: -1px !important;
+/* Hide the while line appearing on the bottom of navigator-toolbox */
+#navigator-toolbox {
+  border-bottom: none !important;
 }
 
 /* NavBar */
@@ -587,3 +586,9 @@ findbar {
 .searchbar-engine-one-off-item:hover {
   background-color: #195757 !important;
 }
+
+/********************* Sidebar **************************/
+#sidebar-box + #sidebar-splitter {
+      display: none !important;
+}
+
